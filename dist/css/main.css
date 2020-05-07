@@ -40,9 +40,9 @@
     margin-left: 1rem; } }
 
 @media (max-width: 700px) {
-  /* .white {
+  .white {
     display: none !important;
-  } */
+  }
   #logo {
     display: none; }
   #main-nav {
