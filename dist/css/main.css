@@ -517,53 +517,44 @@ html.is-animating .transition-fade {
     height: 1.5em;
     width: 3em;
     animation-delay: 1s;
-    animation-duration: 17s;
-    -webkit-filter: blur(5px); }
+    animation-duration: 17s; }
   .square:nth-child(3) {
     height: 2em;
     width: 1em;
     animation-delay: 1.5s;
-    animation-duration: 8s;
-    -webkit-filter: blur(); }
+    animation-duration: 8s; }
   .square:nth-child(4) {
     height: 1em;
     width: 1.5em;
     animation-delay: 0.5s;
-    -webkit-filter: blur(3px);
     animation-duration: 13s; }
   .square:nth-child(5) {
     height: 1.25em;
     width: 2em;
     animation-delay: 4s;
-    -webkit-filter: blur(2px);
     animation-duration: 11s; }
   .square:nth-child(6) {
     height: 2.5em;
     width: 2em;
     animation-delay: 2s;
-    -webkit-filter: blur(1px);
     animation-duration: 9s; }
   .square:nth-child(7) {
     height: 5em;
     width: 2em;
-    -webkit-filter: blur(2.5px);
     animation-duration: 12s; }
   .square:nth-child(8) {
     height: 1em;
     width: 3em;
     animation-delay: 5s;
-    -webkit-filter: blur(6px);
     animation-duration: 18s; }
   .square:nth-child(9) {
     height: 1.5em;
     width: 2em;
-    -webkit-filter: blur(0.5px);
     animation-duration: 9s; }
   .square:nth-child(9) {
     height: 3em;
     width: 2.4em;
     animation-delay: 6s;
-    -webkit-filter: blur(0.5px);
     animation-duration: 12s; }
 
 @keyframes squares {
@@ -631,9 +622,29 @@ html.is-animating .transition-fade {
   .infos {
     grid-template-columns: repeat(1, auto) !important; } }
 
+@media (max-width: 414px) {
+  #main-nav {
+    flex-wrap: column; }
+    #main-nav li {
+      margin: .3rem !important;
+      width: 94px !important;
+      height: 94px !important; } }
+
+@media (max-width: 375px) {
+  #main-nav {
+    flex-wrap: column; }
+    #main-nav li {
+      margin: .3rem !important;
+      width: 84px !important;
+      height: 84px !important; } }
+
 @media (max-width: 320px) {
   .white {
     display: none !important; }
+  .about-info {
+    margin-left: 15px !important; }
+  .bio p {
+    margin: auto !important; }
   #main-nav {
     flex-wrap: column; }
     #main-nav li {
