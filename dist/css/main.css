@@ -466,7 +466,7 @@ img {
         margin-top: 1rem; }
 
 .transition-fade {
-  transition: 500ms;
+  transition: 200ms;
   opacity: 1; }
 
 html.is-animating .transition-fade {
