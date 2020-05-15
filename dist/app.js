@@ -50,5 +50,4 @@ document.querySelector('.catch-btn').addEventListener('click', function(e) {
     const info = new Info(nameForm.value, subjectForm.value, phoneForm.value, emailForm.value, messageForm.value);
     console.log(info);
     SS.addInfo(info);
-    e.preventDefault();
 })
