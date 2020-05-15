@@ -465,12 +465,12 @@ img {
       .contact .infos .inf i {
         margin-top: 1rem; }
 
-/* .transition-fade {
+.transition-fade {
   transition: 500ms;
   opacity: 1; }
 
 html.is-animating .transition-fade {
-  opacity: 0; } */
+  opacity: 0; }
 
 #swup {
   height: 100%; }
